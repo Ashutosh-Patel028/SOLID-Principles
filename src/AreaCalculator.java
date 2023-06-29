@@ -12,6 +12,9 @@ public class AreaCalculator {
             if(shape instanceof Circle){
                 sum+=Math.PI * Math.pow(((Circle) shape).getRadius(), 2);
             }
+            if(shape instanceof Cube){
+                sum+=Math.PI * Math.pow(((Circle) shape).getRadius(), 2);
+            }
         }
         return sum;
     }
