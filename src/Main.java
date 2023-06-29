@@ -9,7 +9,7 @@ public class Main {
         Rectangle rectangle = new Rectangle();
         Shape noShape = new NoShape();
         ShapesPrinter printer = new ShapesPrinter();
-        List<Shape> shapes = List.of(circle,square,cube,rectangle,noShape);
+        List<Shape> shapes = List.of(circle,square,cube,rectangle);
         int sum = areaCalculator.sum(shapes);
         System.out.println(printer.json(sum));
         System.out.println(printer.csv(sum));
