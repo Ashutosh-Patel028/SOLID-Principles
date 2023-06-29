@@ -8,5 +8,6 @@ public class Main {
         List<Object> shapes = List.of(circle, square);
         int sum = areaCalculator.sum(shapes);
         System.out.println(areaCalculator.json(shapes));
+        System.out.println(areaCalculator.csv(shapes));
     }
 }
